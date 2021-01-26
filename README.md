@@ -15,8 +15,8 @@ from the application directory.  Next, run:
 npm run package
 ```
 
-to build package up the application.  It will deposit the build artifacts in the `out` subdirectory.
-Finally, you can run the application by running:
+to build and package up the application.  It will deposit the build artifacts 
+in the `out` subdirectory. Finally, you can run the application by running:
 ```
 ./out/qohash-assignment-linux-x64/qohash-assignment
 ```
