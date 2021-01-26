@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Qohash Directory Picker</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="renderer.js"></script>
+  </head>
+  <body>
+    <form id="directoryForm">
+      <label for="dir_chooser"> Current directory:</label>
+      <input type="text" id="dir_text" name="fname">
+      <button type="submit" disabled style="display: none" aria-hidden="true"></button>
+      <button type="button" id="back_button">Back</button>
+    </form>
+    <div class="preview">
+    </div>
+  </body>
+</html>
